@@ -1,0 +1,112 @@
+.tab-pane{}
+.tab-pane .title{
+	font-size: 26px;
+	color: #632FA3;
+	letter-spacing: 2.35px;
+}
+.tab-pane .culture-tab .nav-tabs{
+	padding: 0 50px;
+	margin-bottom: 30px;
+}
+.tab-pane .culture-tab .nav-tabs.nav-justified > li > a{
+	border:none;
+	font-size: 16px;
+	color: #333333;
+	letter-spacing: 1.45px;
+	font-weight: bold;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #333333;
+	position: relative;
+	border-radius: 0;
+}
+.tab-pane .culture-tab .nav-tabs.nav-justified > li > a .img-position{
+	display: none;
+	position: absolute;
+	width: 13px;
+	height: 7px;
+	bottom: -2px;
+	left: 50%;
+	margin-left: -7px;
+	background: url(../images/culture_3.png) no-repeat center center;	
+}
+.tab-pane .culture-tab .nav-tabs.nav-justified > li > a:hover{
+	background: none;
+}
+.tab-pane .culture-tab .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus{	
+	color: #632FA3;
+}
+.tab-pane .culture-tab .nav-tabs.nav-justified > .active > a .img-position, .nav-tabs.nav-justified > .active > a:hover .img-position, .nav-tabs.nav-justified > .active > a:focus .img-position{	
+	display: block;
+}
+@media only screen and (max-width:768px) {
+	.nav-tabs.nav-justified > li {
+	    display: table-cell;
+	    width: 1%;
+	}
+}
+@media only screen and (max-width:515px ) {
+	.tab-pane .culture-tab .nav-tabs {
+	    padding: 0;
+	}
+	.tab-pane .culture-tab .nav-tabs.nav-justified > li > a{		
+		font-size: 12px;
+	}		
+}
+.culture-tab  .tab-pane .tab-pane-bg{
+	background-size: cover;
+	background: url(../images/cultrue_2.png) no-repeat;
+	margin-bottom: 30px;
+}
+.culture-tab  .tab-pane .tab-pane-bg .width_50{
+	padding: 40px 0 50px 0;
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+	color: white;
+}
+.culture-tab  .tab-pane .tab-pane-bg .width_50 .iconfont{
+	font-size: 100px;
+	display: inline-block;
+}
+.culture-tab  .tab-pane .tab-pane-bg .width_50 .name{
+	margin: 0px 0 29px 0;
+	font-size: 26px;
+	color: #FFFFFF;
+	letter-spacing: 2.35px;	
+	min-height: 74px;
+}
+.culture-tab  .tab-pane .tab-pane-bg .width_50 .number{
+	font-size: 38px;
+	color: #FFFFFF;
+	letter-spacing: 3.44px;
+	font-weight: bold;
+}
+@media only screen and (max-width: 767px) {
+	.culture-tab  .tab-pane .tab-pane-bg .width_50 .iconfont{
+	font-size: 70px;
+	
+}
+.culture-tab  .tab-pane .tab-pane-bg .width_50 .name{
+	
+	font-size: 22px;
+	
+}
+.culture-tab  .tab-pane .tab-pane-bg .width_50 .number{
+	font-size: 28px;
+	
+	}
+}
+.Culture #sec2 .col-md-6{
+	margin-bottom: 30px;
+}
+.Culture #sec2 .col-md-6 h3{
+	color: #333333;
+}
+@media only screen and (max-width: 767px) {
+	.Culture #sec2 .col-md-6 h3{
+		font-size: 20px;
+	}
+	.Culture #sec2 .col-md-6{
+		margin-bottom: 10px;
+	}
+}

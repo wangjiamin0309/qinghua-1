@@ -1,0 +1,68 @@
+.Team .title{
+	font-size: 20px;
+	color: #632FA3;
+	letter-spacing: 1.81px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.Team .nav-team {
+	margin-bottom: 40px;
+}
+.Team .nav > li > a:hover, .Team .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #FFFFFF;
+}
+.Team .nav > li > a{
+	padding: 10px 24px;
+}
+.Team .nav-team li{
+	width: 20%;
+	float: left;
+}
+.Team .nav-team li img{
+	display: inline-block;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.Team .nav-team li .name_top{
+	font-size: 14px;
+	color: #333333;
+	letter-spacing: 1px;
+}
+.Team .nav-team li .name_top span{
+	display: inline-block;
+	font-size: 16px;
+	color: #333333;
+	letter-spacing: 1px;
+	margin-right: 10px;
+	font-weight: bold;
+}
+.Team .nav-team li .name_bot{
+	font-size: 14px;
+	color: #666666;
+	letter-spacing: 1px;
+}
+@media only screen and (max-width:991px ) {
+	.Team .nav-team li{
+		width: 25%;		
+	}
+	/*.Team .nav-team li:nth-child(9),.Team .nav-team li:nth-child(10){
+		display: none;
+	}*/
+}
+@media only screen and (max-width:767px ) {
+	.Team .nav-team li{
+		width: 33.33%;		
+	}
+	/*.Team .nav-team li:nth-child(9){
+		display: block;
+	}
+	.Team .nav-team li:nth-child(10){
+		display: none;
+	}*/
+}
+@media only screen and (max-width:447px ) {
+	.Team .nav-team li{
+		width: 50%;		
+	}
+}

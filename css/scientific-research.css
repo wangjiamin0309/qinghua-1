@@ -1,0 +1,227 @@
+
+/*sec1*/
+.content-common  .col-md-6{
+	margin-bottom: 30px;
+}
+.content-common  .content-left-wrapper{
+	padding: 0;
+}
+.content-common  .content-right-wrapper{
+	padding: 0;
+}
+.content-common  .content-left-wrapper {
+	min-height: 273px;
+}
+.content-common .content-right-wrapper{
+	min-height: 273px;
+}
+.content-common  .content-right-wrapper .content-right{
+	
+	padding: 0 25px;
+}
+.content-common  .content-right-wrapper .content-right h3{
+	margin-bottom: 36px;
+	font-size: 26px;
+	color: #333333;
+}
+.content-common  .content-right-wrapper .content-right p{
+	font-size: 18px;
+	color: #666666;
+	line-height: 25px;
+}
+.content-common  .content-left img{
+	width: 100%;
+}
+@media only screen and (max-width:991px ) {
+	.content-common  .content-left-wrapper {
+		min-height: 203px;
+	}
+	.content-common  .content-right-wrapper{
+		min-height: 203px;
+	}
+	.content-common  .content-right-wrapper .content-right h3{
+		margin-bottom: 20px;
+		font-size: 24px;		
+	}
+	.content-common  .content-right-wrapper .content-right p{
+		font-size: 14px;		
+	}
+}
+@media only screen and (max-width:767px ) {
+	.content-common .content-right-wrapper .content-right{
+		padding: 0;		
+	}
+	.content-common .content-right-wrapper{
+		min-height: 125px
+	}
+	.content-common .content-right-wrapper .content-right h3{
+		font-size: 20px;
+		margin: 10px 0;
+	}
+}
+@media only screen and (max-width:767px ) {
+	.content-common .content-right-wrapper .content-right{
+		min-height: 135px;		
+	}
+}
+@media only screen and (max-width:768px) {
+	.nav-tabs.nav-justified > li {
+	    display: table-cell;
+	    width: 1%;
+	}
+}
+#sec2 .panel-heading{
+	padding: 0;
+	border: 0;
+}
+#sec2 .collapse-click .collapse-click-img{
+	width: 100%;
+}
+#sec2 .collapse-click .collapse-title{
+	font-size: 26px;
+	color: #333333;
+	margin-top: 16px;
+}
+#sec2 .collapse-click .icon-jia::before{
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 42px;
+	height: 42px;
+	background: url(../images/jian.png) no-repeat;
+}
+/*#sec2 .collapse-click .collapseds .icon-jia{
+	background: url(../images/jia.png) no-repeat;
+}
+#sec2 .collapse-click .no-collapsed .icon-jia{
+	
+	background: url(../images/jian.png) no-repeat;
+}*/	
+#sec2 .collapse-click .collapse-title .icon-jia{
+	position: relative;
+	margin-top: -5px;
+	cursor: pointer;
+	display: block;
+	float: right;
+	width: 42px;
+	height: 42px;
+	background-size: contain;	
+}
+#sec2 .collapse-click .collapse-title.collapsed .icon-jia::before{
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 42px;
+	height: 42px;
+	background: url(../images/jia.png) no-repeat;
+}
+#sec2 .collapse-content-wrapper{
+	
+	
+	
+	background: #F7F7F7;
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,0.10);
+}
+#sec2 .collapse-content{
+	margin-top: 34px;
+	margin-bottom: 26px;
+	border-right: 1px solid #E6E6E6;
+}
+#sec2 .collapse-content:last-child{
+	border: none;
+}
+#sec2 .collapse-content .collapse-content-data{
+	font-size: 26px;
+	color: #666666;
+}
+#sec2 .collapse-content .collapse-content-desc{
+	font-size: 16px;
+	color: #666666;
+	line-height: 22px;
+}
+#sec2 #accordion2 .collapse-click{
+	margin-top: 30px;
+}
+@media only screen and (max-width:767px ) {
+	#sec2 .collapse-click .collapse-title{
+		font-size: 20px;
+	}
+	.content-common .col-md-6{
+		margin-bottom: 15px;
+	}
+}
+@media only screen and (max-width:425px ) {
+	#sec2 .collapse-click .collapse-title{
+		font-size: 16px;
+	}
+	
+}
+
+/*sec3*/
+.certificate{	
+	margin-bottom: 30px;
+}
+.certificate .certificate-img{
+	position: relative;
+	margin: 0 auto;
+}
+.certificate .certificate-logo-img{
+	position: absolute;
+	left: 27%;
+	top: 18%;
+}
+.certificate .name{
+	position: absolute;
+	left: 27%;
+	top: 36%;	
+	font-size: 20px;
+	color: #333333;
+	letter-spacing: 1px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #632FA3;
+}
+.certificate .bottom{
+	position: absolute;
+	left: 27%;
+	bottom: 18%;
+	font-size: 16px;
+	color: #632FA3;
+	letter-spacing: 1.45px;
+}
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+	.certificate .certificate-logo-img,.certificate .name,.certificate .bottom{		
+		left: 29%;		
+	}	
+}
+@media only screen and (max-width: 600px) {
+	.certificate .certificate-logo-img,.certificate .name,.certificate .bottom{		
+		left: 25%;		
+	}
+}
+@media only screen and (max-width: 540px) {
+	.certificate .name{
+		position: absolute;		
+		font-size: 16px;		
+	}
+	.certificate .bottom{		
+		font-size: 12px;		
+	}
+}
+@media only screen and (max-width: 420px) {
+	.certificate .certificate-logo-img{
+		left: 22%
+	}
+	.certificate .name{
+		left: 22%;		
+		font-size: 14px;		
+	}
+	
+	.certificate .bottom{		
+		font-size: 8px;		
+		left: 20%;
+	}
+}

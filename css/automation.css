@@ -1,0 +1,86 @@
+.automation{
+	margin-bottom: 40px;
+}
+.automation .automation-warpp-left{
+	padding-left: 30px;
+	padding-right: 35px;
+	border-right: 1px solid #632FA3;
+	margin-right: -1px;
+}
+.automation .automation-warpp-right{
+	padding-left: 35px;
+	padding-right: 30px;
+	border-left: 1px solid #632FA3;
+	
+}
+@media only screen and (max-width: 450px) {
+	.automation .automation-warpp-left{
+		padding-left: 0px;
+		padding-right: 35px;		
+	}
+	.automation .automation-warpp-right{
+		padding-left: 30px;
+		padding-right: 0px;
+		
+		
+	}
+}
+.automation .min-height{
+	min-height: 92px;
+	border-left: 1px solid #632FA3;	
+}
+.automation .automation-content-left,.automation-content-right{
+	position: relative;
+}
+.automation #sec1 .data{
+	font-size: 20px;
+	color: #632FA3;
+	letter-spacing: 1.81px;
+	margin-top: 0;
+	padding-top: 10px;
+	font-weight: bold;
+}
+.automation #sec1 .desc{
+	font-size: 14px;
+	color: #333333;
+	letter-spacing: 1.27px;
+	margin: 0;
+	padding-bottom: 15px;	
+}
+.automation .position-circular{
+	position: absolute;
+	display: block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	border: 2px solid #632FA3;
+	background: #FFFFFF;
+}
+.automation .automation-content-left .position-circular{
+	top: 15PX;
+	right: -6px;
+}
+.automation .automation-content-right .position-circular{
+	top: 15PX;
+	left: -6px;
+}
+.automation .sec2-wrapper {
+	padding: 17px;
+	background: #FFFFFF;
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,0.10);
+}
+.automation .sec2-wrapper .col-md-5{
+	padding-top: 30px;
+}
+.automation .sec2-wrapper p{
+	font-size: 18px;
+	color: #333333;
+	letter-spacing: 1.2px;
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+@media only screen and (max-width:991px ) {
+	.sec2-wrapper .img-responsive{
+		width: 100%;
+	}
+}
